@@ -78,7 +78,7 @@ class Lifter(object):
         Ijk_NoDecode, signalling to pyvex that other lifters should be used on the undecodable data.
 
         """
-        raise NotImplementedError
+        raise NotImplementedError()
 
 class Postprocessor(object):
     def __init__(self, irsb):
